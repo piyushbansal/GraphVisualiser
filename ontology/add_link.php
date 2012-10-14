@@ -1,0 +1,61 @@
+<?php
+	function addLink($source,$target)
+	{
+		$var=file_get_contents("filename");
+		$var=substr_replace($var,"",-1);
+		$var="database/".$var;
+		$var=$var.".json";
+		$file=file_get_contents("$var");
+		$obj=json_decode($file,true);
+		$count_links=count($obj["links"]);
+		$obj["links"][$count_links]["source"]=$source;
+		$obj["links"][$count_links]["target"]=$target;
+		$obj["links"][$count_links]["value"]=1;
+		$obj2=json_encode($obj);
+		$fp=fopen($var,"w");
+		fwrite($fp,$obj2);
+		$fp=fopen("database/.default.json","w");
+		fwrite($fp,$obj2);
+		$page='ontology.php';
+		header('Location: '.$page);
+	}
+$node1=$_POST["addedgename1"];
+$node2=$_POST["addedgename2"];
+$var=file_get_contents("filename");
+$var=substr_replace($var,"",-1);
+$var="database/".$var;
+$var=$var.".json";
+$file=file_get_contents("$var");
+$obj=json_decode($file,true);
+$count_nodes=count($obj["nodes"]);
+$f=1;
+for($i=0;$i<$count_nodes;$i++)
+{
+	if($obj["nodes"][$i]["name"]==$node1)
+	{
+		$source=$i;
+		break;
+	}
+}
+if($i==$count_nodes)
+	$f=0;
+for($i=0;$i<$count_nodes;$i++)
+{
+	if($obj["nodes"][$i]["name"]==$node2)
+	{
+		$target=$i;
+		break;
+	}
+}
+if($i==$count_nodes)
+	$f=0;
+if($f==1)
+	addLink($source,$target);
+else
+{
+	echo "<script>
+		alert('Node(s) with given name does not exist(s)');
+		</script>";
+	echo "<meta http-equiv=Refresh content=0;url=ontology.php>";
+}
+?>

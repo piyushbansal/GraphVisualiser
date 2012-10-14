@@ -1,0 +1,15 @@
+<?php
+	echo"
+	<html>
+ 	 <head>
+    <title>Force-Directed Layout</title>
+				<script type='text/javascript' src='d3.v2.js'></script>
+				<link type='text/css' rel='stylesheet' href='force.css'/> 
+		</title>
+ 	 </head>
+ 	 <body>
+		  <div id='chart'></div> 
+ 			<script type='text/javascript' src='force.js'></script>
+  	</body>
+	</html>"
+?>
