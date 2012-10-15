@@ -1,4 +1,19 @@
 <?php
+
+/* 
+   **Short Description of file:
+
+   	The script is called into action when the user
+	wishes to delete a particular node.
+	It also checks if the node to be deleted
+	exists, throws an error message otherwise.
+
+	@Category: Backend,!mportant
+	@Since: Svn Revision-7
+	@Inspected on: 13 October
+
+	*/
+
 	function deleteNode($index)
 	{
 		$var=file_get_contents("filename");
@@ -9,6 +24,9 @@
 		$obj=json_decode($file,true);
 	
  		$count_links=count($obj["links"]);
+
+		//unsetting from JSON file
+
 		for($i=0;$i<$count_links;$i++)		
 		{
 			if($obj["links"][$i]["source"]==$index)
@@ -38,6 +56,9 @@
 		$page='ontology.php';
 		header('Location: '.$page);
 	}
+
+// Global Variables go here
+
 $node1=$_POST["deletenodename"];
 $var=file_get_contents("filename");
 $var=substr_replace($var,"",-1);
@@ -46,6 +67,10 @@ $var=$var.".json";
 $file=file_get_contents($var);
 $obj=json_decode($file,true);
 $count_nodes=count($obj["nodes"]);
+
+/**************************************************************/
+// Checking Done here:
+
 for($i=0;$i<$count_nodes;$i++)
 {
 	if($obj["nodes"][$i]["name"]==$node1)
@@ -62,6 +87,9 @@ if($i==$count_nodes)
 	</script>";
 	$f=0;
 }
+
+/**************************************************************/
+
 if($f==1)
 	deleteNode($index);
 else

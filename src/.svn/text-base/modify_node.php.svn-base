@@ -1,4 +1,27 @@
 <?php
+/*
+   ** Short Description of file:
+
+   This file is called into action when a user 
+   wishes to modify a particular node, checks if
+   that node exists, can change its name/color.
+
+   @Category: Backend,!mportant
+   @Since: Svn Revision-11.
+   @Inspected on: 15 October.
+   */
+
+/* 
+ ** Additional Comments:
+
+   *Issue-1:
+
+   --> Check if the new node name entered already exists, not sure if works.
+   			--Piyush.
+
+   --> Checked,it works.(look at lines 70-71)
+   			-- Chandan.
+   */
 	function modifyNode($index,$name,$color)
 	{
 		$var=file_get_contents("filename");

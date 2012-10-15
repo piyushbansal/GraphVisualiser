@@ -9,17 +9,44 @@
         <link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/common.css" />
         <link rel="stylesheet" type="text/css" href="css/style2.css" />
-<!--		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,700' rel='stylesheet' type='text/css' />-->
 		<script type="text/javascript" src="js/modernizr.custom.79639.js"></script> 
-		<!--[if lte IE 8]><style>.main{display:none;} .support-note .note-ie{display:block;}</style><![endif]-->
 		</head>
 <style>
-body
+blockquote {
+	   margin: 0 30px 0px 30px;
+		      padding: 0 0 0 10px;
+			          font-size: 1.1em;
+				     font-family: Georgia, "Times New Roman", Times, serif;
+				        border-left: 2px solid #ddd;
+					   color: #888;
+}
+cite { text-align:right;display:block;font-style:italic;color: #388E8E}
+blockquote { float: right; width: 12em; margin-left: 1em;
+}
+blockquote p { font-family: “Monotype Corsiva”, “Apple Chancery”,
+	        “URW Chancery L”, cursive; font-size: 100%; } 
+blockquote p:before { content: open-quote; }
+blockquote p:after { content: close-quote; }
+.gigantic {
+
+position: relative;
+top: -75px;
+height: auto;
+	font-size:1em;
+}
+q:before
 {
-	font-family: Arial, Helvetica, sans-serif;
+content: '\201C';
+	 font-size:1000%;
+	 padding-right: 0px;
+}
+ 
+ body
+{
+	font-family: "Monotype Corsiva", "Apple Chancery", sans-serif;
 color: #388E8E;
 background: #eee url("bkg.png");
-margin: 0;
+margin: 0 0 0 0;
 	font-size: 12px;
 }
 .typo
@@ -28,7 +55,7 @@ margin: 0;
 	font-weight: normal;
 	font-size: 3.75em;
 	letter-spacing: 0.5em;
-margin:10px;
+	margin:10px 0 0 0;
        text-align: center;
        text-transform:uppercase;
 }
@@ -74,7 +101,7 @@ color:#666666;
 						<div class="ch-item ch-img-1">
 							<div class="ch-info">
 								<h3>Start Experiment</h3>
-								<p> By Team No 15.<a href="ontology.php">Take me there !</a></p>
+								<p>By Team No 15.<a href="ontology.php">Take me there !</a></p>
 							</div>
 						</div>
 					</li>
@@ -88,6 +115,8 @@ color:#666666;
 						</div>
 					</li>
 			</ul>
+			            <hr style="color:#F0F0F0" width=50% align="center" height="0.0px">
+									<blockquote><q><span class="gigantic"><br />As intelligence goes up, happiness goes down. See, I made a graph. I make lots of graphs.<cite>Lisa Simpson, The Simpsons</cite></span></q> </blockquote>
 				
 			</section>
 			

@@ -1,4 +1,18 @@
 <?php
+
+/* Short description of File:
+
+   The Script is called into action when the user 
+   wishes to add a particlular link between any 
+   two nodes. It checks, if the nodes with gives name
+   exist, throws an error otherwise.
+
+   @Category: Backend,!mportant
+   @Since: Svn Revison 8
+   @Inspected on: 14 October
+
+   */
+
 	function addLink($source,$target)
 	{
 		$var=file_get_contents("filename");
@@ -19,6 +33,9 @@
 		$page='ontology.php';
 		header('Location: '.$page);
 	}
+
+// Global Variables go here
+
 $node1=$_POST["addedgename1"];
 $node2=$_POST["addedgename2"];
 $var=file_get_contents("filename");
@@ -29,6 +46,10 @@ $file=file_get_contents("$var");
 $obj=json_decode($file,true);
 $count_nodes=count($obj["nodes"]);
 $f=1;
+
+/******************************************************/
+// Checking done here
+
 for($i=0;$i<$count_nodes;$i++)
 {
 	if($obj["nodes"][$i]["name"]==$node1)
@@ -51,10 +72,13 @@ if($i==$count_nodes)
 	$f=0;
 if($f==1)
 	addLink($source,$target);
+
+/***************************************************************/
+
 else
 {
 	echo "<script>
-		alert('Node(s) with given name does not exist(s)');
+		alert('Node(s) with given name do(es) not exist(s)');
 		</script>";
 	echo "<meta http-equiv=Refresh content=0;url=ontology.php>";
 }

@@ -111,15 +111,44 @@
 		nav #login {
 			border-right: 2px solid #fff;
 			border-left: 5px solid #fff;
-			border-top: 5px solid #fff;
+			-moz-box-shadow: 1px 0 0 #fff;
+			-webkit-box-shadow: 1px 0 0 #fff;
+			box-shadow: 1px 0 0 #fff;  
+		}
+		nav #login11 {
+			border-right: 2px solid #fff;
+			border-left: 100px solid #fff;
 			-moz-box-shadow: 1px 0 0 #fff;
 			-webkit-box-shadow: 1px 0 0 #fff;
 			box-shadow: 1px 0 0 #fff;  
 		}
 
+		nav #login12 {
+			border-right: 2px solid #fff;
+			border-left: 100px solid #fff;
+			-moz-box-shadow: 1px 0 0 #fff;
+			-webkit-box-shadow: 1px 0 0 #fff;
+			box-shadow: 1px 0 0 #fff;  
+		}
+
+
+	nav #login9 {
+			border-right: 100px solid #fff;
+			-moz-box-shadow: 1px 0 0 #fff;
+			-webkit-box-shadow: 1px 0 0 #fff;
+			box-shadow: 1px 0 0 #fff;  
+		}
+	nav #login10 {
+			border-right: 2px solid #fff;
+			border-left: 50px solid #fff;
+			-moz-box-shadow: 1px 0 0 #fff;
+			-webkit-box-shadow: 1px 0 0 #fff;
+			box-shadow: 1px 0 0 #fff;  
+		}
+
+
 		nav #login2 {
 			border-right: 2px solid #fff;
-			border-top: 5px solid #fff;
 			-moz-box-shadow: 1px 0 0 #fff;
 			-webkit-box-shadow: 1px 0 0 #fff;
 			box-shadow: 1px 0 0 #fff;  
@@ -127,7 +156,6 @@
 
 		nav #login3 {
 			border-right: 2px solid #fff;
-			border-top: 5px solid #fff;
 			-moz-box-shadow: 1px 0 0 #fff;
 			-webkit-box-shadow: 1px 0 0 #fff;
 			box-shadow: 1px 0 0 #fff;  
@@ -135,7 +163,6 @@
 
 		nav #login4 {
 			border-right: 2px solid #fff;
-			border-top: 5px solid #fff;
 			-moz-box-shadow: 1px 0 0 #fff;
 			-webkit-box-shadow: 1px 0 0 #fff;
 			box-shadow: 1px 0 0 #fff;  
@@ -143,16 +170,14 @@
 
 		nav #login5 {
 			border-right: 2px solid #fff;
-			border-top: 5px solid #fff;
 			-moz-box-shadow: 1px 0 0 #fff;
 			-webkit-box-shadow: 1px 0 0 #fff;
 			box-shadow: 1px 0 0 #fff;  
 		}
 
 		nav #login6 {
-			border-left: 500px solid #fff;
-			border-right: 5px solid #fff;
-			border-top: 5px solid #fff;
+			border-left: 2px solid #fff;
+			border-right: 2px solid #fff;
 			-moz-box-shadow: 1px 0 0 #fff;
 			-webkit-box-shadow: 1px 0 0 #fff;
 			box-shadow: 1px 0 0 #fff;  
@@ -160,7 +185,6 @@
 
 		nav #login7 {
 			border-right: 2px solid #fff;
-			border-top: 5px solid #fff;
 			-moz-box-shadow: 1px 0 0 #fff;
 			-webkit-box-shadow: 1px 0 0 #fff;
 			box-shadow: 1px 0 0 #fff;  
@@ -168,7 +192,7 @@
 
 		nav #login8 {
 			border-right: 2px solid #fff;
-			border-top: 5px solid #fff;
+			border-left: 100px solid #fff;
 			-moz-box-shadow: 1px 0 0 #fff;
 			-webkit-box-shadow: 1px 0 0 #fff;
 			box-shadow: 1px 0 0 #fff;  
@@ -335,56 +359,72 @@
 		nav #login-trigger:hover,
 		nav #login .active,
 		nav #signup a:hover {
-			background: #fff;
+			background: #388E8E;
+			color: #fff;
+			text-shadow: 0 0 0 #fff; 
 		}
 
 		nav #login-trigger2:hover,
 		nav #login2 .active,
 		nav #signup2 a:hover {
-			background: #fff;
+			background: #388E8E;
+			color: #fff;
+			text-shadow: 0 0 0 #fff; 
 		}
 
 		nav #login-trigger3:hover,
 		nav #login3 .active,
 		nav #signup3 a:hover {
-			background: #fff;
+			background: #388E8E;
+			color: #fff;
+			text-shadow: 0 0 0 #fff; 
 		}
 
 		nav #login-trigger4:hover,
 		nav #login4 .active,
 		nav #signup4 a:hover {
-			background: #fff;
+			background: #388E8E;
+			color: #fff;
+			text-shadow: 0 0 0 #fff; 
 		}
 
 		nav #login-trigger5:hover,
 		nav #login5 .active,
 		nav #signup5 a:hover {
-			background: #fff;
+			background: #388E8E;
+			color: #fff;
+			text-shadow: 0 0 0 #fff; 
 		}
 
 		nav #login-trigger6:hover,
 		nav #login6 .active,
 		nav #signup6 a:hover {
-			background: #fff;
+			background: #388E8E;
+			color: #fff;
+			text-shadow: 0 0 0 #fff; 
 		}
 
 		nav #login-trigger7:hover,
 		nav #login7 .active,
 		nav #signup7 a:hover {
-			background: #fff;
+			background: #388E8E;
+			color: #fff;
+			text-shadow: 0 0 0 #fff; 
 		}
 
 		nav #login-trigger8:hover,
 		nav #login8 .active,
 		nav #signup8 a:hover {
-			background: #fff;
+			background: #388E8E;
+			color: #fff;
+			text-shadow: 0 0 0 #fff; 
 		}
 
 		nav #login-content {
 			display: none;
 			position: absolute;
 			top: 24px;
-			left: 5px;
+			left: 100px;
 			z-index: 999;    
 			background: #fff;
 			background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee));
@@ -519,7 +559,7 @@
 			display: none;
 			position: absolute;
 			top: 24px;
-			left: 505px;
+			left: 10px;
 			z-index: 999;    
 			background: #fff;
 			background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee));
@@ -1082,6 +1122,49 @@
 		#about a {
 			color: #555;
 		}
+		#footer{	
+			font-size: 11px !important;
+			margin: 0 0 0 0;	
+			padding: 0 0 100px 0;
+			width: 1000px;
+			margin: 0 auto;
+			border-top: 1px solid #dcdcdc;
+			}
+
+		#footer p{
+			color: #919191;	
+			}
+
+		#footer a:link, #footer a:visited{	
+			line-height: 30px;
+			color: #676767;
+			}
+
+		#footer a:hover{
+			text-decoration: none;
+			color: #4a4a4a;
+			}
+
+		#footer .links{
+			float: right;
+		       	margin: 0 0px 0 0;
+			padding: 20px 0 10px 0;
+			font-size: 11px !important;
+			}
+
+		#footer .copyright{
+			float: left;
+		       	margin: 0 0 0 0px;
+			padding: 20px 0 10px 0;
+			font-size: 11px !important;
+			}
+		.menu
+		{
+		position: relative;
+		margin: 0 0 0 0px;
+		padding: 0 0 30px 0;
+		}
+
 	</style>
 	<script src="jquery.min.js"></script>
 	<script>
@@ -1167,6 +1250,69 @@
 			<div class="subtypo"> A JavaScript Based Graphing Tool</div>
 			<hr style="color:#F0F0F0" width=50% align="center" height=0.0px >
 		</div>
+<div class="menu">
+		<nav>
+		<ul>
+		<li id="login9">
+		</li>
+		</ul>
+		</nav>
+		<nav>
+		<ul>
+		<li id="login12">
+		</li>
+		</ul>
+		</nav>
+		<nav>
+		<ul>
+		<li id="login10">
+		</li>
+		</ul>
+		</nav>
+		<nav>
+		<ul>
+			<li id="login6">
+			<a id="login-trigger6" href="#">
+				New Graph<span>&#x25BC;</span>
+			</a>
+			<div id="login-content6">
+				<form action="new_graph.php" method="post">
+					<fieldset id="inputs">
+						<input type="text" name="newgraphname" placeholder ="Name of new graph" required>   
+					</fieldset>
+					<fieldset id="actions">
+						<input type="submit" id="submit" value="Create">
+					</fieldset>
+				</form>
+			</div>                     
+			</li>
+		</ul>
+		</nav>	
+		<nav>
+		<ul>
+			<li id="login7">
+			<a id="login-trigger7" href="#">
+				Load Graph<span>&#x25BC;</span>
+			</a>
+			<div id="login-content7">
+				<form action="load_graph.php" method="post">
+					<fieldset id="inputs">
+						<input type="text" name="loadgraphname" placeholder ="Name of graph to load" required>   
+					</fieldset>
+					<fieldset id="actions">
+						<input type="submit" id="submit" value="Load">
+					</fieldset>
+				</form>
+			</div>                     
+			</li>
+		</ul>
+		</nav>
+		<nav>
+		<ul>
+		<li id="login11">
+		</li>
+		</ul>
+		</nav>
 		<nav>
 		<ul>
 			<li id="login">
@@ -1297,46 +1443,13 @@
 
 		</ul>
 		</nav>
-		<nav>
-		<ul>
-			<li id="login6">
-			<a id="login-trigger6" href="#">
-				New Graph<span>&#x25BC;</span>
-			</a>
-			<div id="login-content6">
-				<form action="new_graph.php" method="post">
-					<fieldset id="inputs">
-						<input type="text" name="newgraphname" placeholder ="Name of new graph" required>   
-					</fieldset>
-					<fieldset id="actions">
-						<input type="submit" id="submit" value="Create">
-					</fieldset>
-				</form>
-			</div>                     
-			</li>
-		</ul>
-		</nav>	
-		<nav>
-		<ul>
-			<li id="login7">
-			<a id="login-trigger7" href="#">
-				Load Graph<span>&#x25BC;</span>
-			</a>
-			<div id="login-content7">
-				<form action="load_graph.php" method="post">
-					<fieldset id="inputs">
-						<input type="text" name="loadgraphname" placeholder ="Name of graph to load" required>   
-					</fieldset>
-					<fieldset id="actions">
-						<input type="submit" id="submit" value="Load">
-					</fieldset>
-				</form>
-			</div>                     
-			</li>
-		</ul>
-		</nav>
+</div>
 		<div class='gallery' id='chart'></div>
 		<link href='force.css' rel='stylesheet' type='text/css' />
+<div id="footer" class="clearfix">
+		<p class="copyright">Copyleft; The Team no 15. All wrongs reserved.
+				<p class="links"><a href="http://piyushbansal.github.com/GraphVisualiser">About</a> &nbsp; | &nbsp; <a href="http://github.com/piyushbansal/GraphVisualiser">Source Code</a></p>
+					</div>
 <script src='force.js' type='text/javascript'></script>
 </body>
 </html>

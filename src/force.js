@@ -5,7 +5,7 @@ var colors = [ "#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd", "#8c564b",
 
 var force = d3.layout.force()
     .charge(-120)
-    .linkDistance(200)
+    .linkDistance(30)
     .size([width, height]);
 
 var svg = d3.select("#chart").append("svg")
@@ -27,7 +27,7 @@ d3.json("database/.default.json", function(json) {
       .data(json.nodes)
     .enter().append("circle")
       .attr("class", "node")
-      .attr("r", 11)
+      .attr("r", 7)
       .style("fill", function(d) { return colors[d.group]; })
       .call(force.drag);
 
