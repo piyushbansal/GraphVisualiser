@@ -4,4 +4,4 @@ Ontology Visualiser
 A javascript based Graphing tool.
 
 
-Project homepage <a href="piyushbansal.github.com/GrpahVisualiser"></a>
+Project homepage http://piyushbansal.github.com/GrpahVisualiser
