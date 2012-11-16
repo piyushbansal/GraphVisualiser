@@ -1,0 +1,42 @@
+			README
+
+Run the script ~installer.sh~ as root user .This will install the tool on your machine.
+To launch the tool type the following in the address bar of your browser.
+	~ localhost/ontologyvisualizer ~
+
+Once the tool is running you can do following operations
+
+
+- Options in the top menu - add edge type , delete edge type, add node type. delete node type,new graph, save graph, load graph, modify node type.
+- Single click add a node (You have to select from dropdown of available node-types)
+- Right click on a node deletes it
+- Double click on one node and then another. This will create an edge between them.(You have to select from dropdown of available link-types)
+
+
+FUNCTIONALITIES:
+============================================================================================================
+
+ADD EDGE TYPE : User can build an edge type and then simply select this edge type while making same type of edge between different nodes.He wouldn't have to repeat.
+ADD NODE TYPE : User can build a node type and simply spawn copies of that node across the canvas , he wouldn't have to create a new node each time[as was in Release 1].
+DELETE EDGE/NODE TYPE: Delete a previously built edge type.
+MODIFY NODE TYPE : MOdify a previously built node type.
+SAVE GRAPH: User has the option to save graph , by the same name as he/she selected during new graph option.
+NEW GRAPH: Build a totally new graph.
+LOAD GRAPH: Load an already saved graph.
+
+
+Feel Free to shoot us a mail at 
+============================================================================================================
+
+piyush.bansal@students.iiit.ac.in
+chandan.singh@students.iiit.ac.in
+
+
+Contribute To the project hosted at [ Wiki, Homepage , Issue Tracker]
+============================================================================================================
+
+github.com/piyushbansal/GraphVisualiser
+
+
+Ciao !!
+

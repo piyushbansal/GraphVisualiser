@@ -1,0 +1,22 @@
+/*
+	** Short Description of file:
+	This file describes those properties 
+	of nodes and edges which remain constant,
+	i.e. remain same for all nodes and edge.
+	Rest of the properties defined in force.js file.
+
+	@Category: Frontend,!mportant
+	@Since: Svn revision-1.
+	@Inspected on: 5 October
+*/
+
+
+circle.node {
+  stroke: #fff;		/* color of boundary of nodes */
+  stroke-width: 1.5px;	/* width of boundary of nodes */
+}
+
+line.link {
+  stroke: #999;		/* color of edges */
+  stroke-opacity: 1.6;	/* opacity of edges */
+}

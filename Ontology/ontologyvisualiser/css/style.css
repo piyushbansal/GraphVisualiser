@@ -1,0 +1,26 @@
+rect {
+	fill: #fff;
+}
+
+.node {
+	fill: #000;
+}
+
+.node text {
+	pointer-events: none;
+	font: 7px sans-serif;
+}
+
+.mymenu {
+	display: none;
+}
+
+.cursor {
+	fill: none;
+	stroke: brown;
+	pointer-events: none;
+}
+
+.link {
+	stroke: #999;
+}

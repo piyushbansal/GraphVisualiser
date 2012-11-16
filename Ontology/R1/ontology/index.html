@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!-- 	
+ 	** Short Description of file:
+	The file is first page the user sees
+	as soon as he opens the application.
+	It provides user the options to go to the 
+	application or project wiki and a breif description 
+	of the project
+
+	@Category : Frontend, !mportant
+	@Since : Svn-Revision-11.
+	@Inspected on : 14 October.
+-->
+
+<html lang="en">
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Ontology Visualiser</title>
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+        <link rel="stylesheet" type="text/css" href="css/style2.css" />
+		<script type="text/javascript" src="js/modernizr.custom.79639.js"></script> 
+		</head>
+<style>
+blockquote {
+	   margin: 0 30px 0px 30px;
+		      padding: 0 0 0 10px;
+			          font-size: 1.1em;
+				     font-family: Georgia, "Times New Roman", Times, serif;
+				        border-left: 2px solid #ddd;
+					   color: #888;
+}
+cite { text-align:right;display:block;font-style:italic;color: #388E8E}
+blockquote { float: right; width: 12em; margin-left: 1em;
+}
+blockquote p { font-family: “Monotype Corsiva”, “Apple Chancery”,
+	        “URW Chancery L”, cursive; font-size: 100%; } 
+blockquote p:before { content: open-quote; }
+blockquote p:after { content: close-quote; }
+.gigantic {
+
+position: relative;
+top: -75px;
+height: auto;
+	font-size:1em;
+}
+q:before
+{
+content: '\201C';
+	 font-size:1000%;
+	 padding-right: 0px;
+}
+ 
+ body
+{
+	font-family: "Monotype Corsiva", "Apple Chancery", sans-serif;
+color: #388E8E;
+background: #eee url("images/bkg.png");
+margin: 0 0 0 0;
+	font-size: 12px;
+}
+.typo
+{
+	font-family: 'Hoefler Text','Georgia','Times New Roman',serif;
+	font-weight: normal;
+	font-size: 3.75em;
+	letter-spacing: 0.5em;
+	margin:10px 0 0 0;
+       text-align: center;
+       text-transform:uppercase;
+}
+.subtypo
+{
+	font-family:"Lucida Grande",Tahoma;
+	font-size: 12px;
+	font-weight:lighter;
+	font-variant:normal;
+	text-transform:uppercase;
+color:#666666;
+      margin-top: 5px;
+      text-align:center;
+      letter-spacing:0.3em;
+}
+
+</style>
+ <body>
+        <div class="container">
+		
+			<div class="typo">
+			          Ontology Visualiser
+			           <div class="subtypo"> A Javascript Based Graphing Tool</div>
+			            <hr style="color:#F0F0F0" width=50% align="center" height="0.0px">
+			 </div>
+
+			<header>
+			
+			<div class="support-note"><!-- let's check browser support with modernizr -->
+					<!--span class="no-cssanimations">CSS animations are not supported in your browser</span-->
+					<span class="no-csstransforms">CSS transforms are not supported in your browser</span>
+					<!--span class="no-csstransforms3d">CSS 3D transforms are not supported in your browser</span-->
+					<span class="no-csstransitions">CSS transitions are not supported in your browser</span>
+					<span class="note-ie">Sorry, only modern browsers.</span>
+				</div>
+				
+			</header>
+			
+			<section class="main">
+			
+				<ul class="ch-grid">
+					<li>
+						<div class="ch-item ch-img-1">
+							<div class="ch-info">
+								<h3>Start Experiment</h3>
+								<p>By Team No 15.<a href="ontology.php">Take me there !</a></p>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div class="ch-item ch-img-2">
+							<div class="ch-info">
+								<h3>Project Homepage</h3>
+								<p>Hosted on Github Pages<a href="http://piyushbansal.github.com/GraphVisualiser/">Take me there !</a></p>
+							</div>
+						</div>
+					</li>
+			</ul>
+			            <hr style="color:#F0F0F0" width=50% align="center" height="0.0px">
+									<blockquote><q><span class="gigantic"><br />As intelligence goes up, happiness goes down. See, I made a graph. I make lots of graphs.<cite>Lisa Simpson, The Simpsons</cite></span></q> </blockquote>
+				
+			</section>
+			
+        </div>
+    </body>
+</html>
